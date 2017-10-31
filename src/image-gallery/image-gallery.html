@@ -20,7 +20,7 @@
         padding: 0;
         -webkit-justify-content: space-around;
         justify-content: space-around;
-        overflow: auto;
+        overflow: hidden;
       }
 
       /* MOBILE */
@@ -91,7 +91,7 @@
     <div class="carousel">
         <template is="dom-repeat" items="{{scenes}}">
           <div>
-            <img id="[[item.id]]" class="thumb" src="../../[[item.thumbnail]]" on-tap="sceneSelected">
+            <img id="[[item.id]]" class="thumb" src="[[item.thumbnail]]" on-tap="sceneSelected">
             <span class="name">[[item.name]]</span>
           </div>
         </template>
@@ -162,6 +162,7 @@
         console.debug(ImageGallery.is, 'sceneSelected', ev);
         console.debug(ImageGallery.is, 'sceneSelected model', ev.model);
         console.debug(ImageGallery.is, 'sceneSelected target', ev.target.parentNode);
+        console.debug(ImageGallery.is, 'this.rootPath = ', this.rootPath);
 
         let el = ev.target;
         let sib = el.nextElementSibling;
