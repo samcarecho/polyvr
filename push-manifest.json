@@ -165,6 +165,10 @@
     "src/webvr-viewer/lib/vrview.js": {
       "type": "script",
       "weight": 1
+    },
+    "src/webvr-viewer/webvr-viewer.html": {
+      "type": "document",
+      "weight": 1
     }
   },
   "src/image-gallery/image-gallery.html": {
