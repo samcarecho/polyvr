@@ -2,8 +2,8 @@
   "name": "@polymer/hn-polymer-2",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@polymer/polymer": "^2.0.0",
-    "@webcomponents/webcomponentsjs": "^1.0.0"
+    "@polymer/polymer": "^2.6.0",
+    "@webcomponents/webcomponentsjs": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^3.12.0",

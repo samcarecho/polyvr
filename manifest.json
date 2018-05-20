@@ -1,7 +1,7 @@
 {
-  "name": "webvr-viewer",
-  "short_name": "webvr-viewer",
+  "name": "PolyVR",
+  "short_name": "PolyVR",
   "description": "A simple Polymer 2.0 based WebVR viewer codeLab.",
-  "start_url": "/poly-webvr-view",
+  "start_url": "/polyvr",
   "display": "standalone"
 }
